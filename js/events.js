@@ -18,6 +18,8 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('')
+  $('form #typing').on('keydown', function(key) {
+    if (key.which === )
+  })
   
 }
