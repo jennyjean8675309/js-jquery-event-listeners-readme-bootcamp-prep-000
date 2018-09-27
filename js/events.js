@@ -6,7 +6,7 @@ $(document).ready(function(){
 });
 
 function getIt() {
-  $('h1').on('click', function() {
+  $('p').on('click', function() {
     alert("Hey!");
   });
 }
